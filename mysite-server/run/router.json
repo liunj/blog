@@ -1,0 +1,565 @@
+[
+  {
+    "name": null,
+    "methods": [
+      "POST"
+    ],
+    "paramNames": [],
+    "path": "/api/admin/login",
+    "regexp": "/^\\/api\\/admin\\/login(?:\\/(?=$))?$/",
+    "stack": [
+      "anonymous",
+      "anonymous",
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "HEAD",
+      "GET"
+    ],
+    "paramNames": [],
+    "path": "/api/admin/whoami",
+    "regexp": "/^\\/api\\/admin\\/whoami(?:\\/(?=$))?$/",
+    "stack": [
+      "anonymous",
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "PUT"
+    ],
+    "paramNames": [],
+    "path": "/api/admin",
+    "regexp": "/^\\/api\\/admin(?:\\/(?=$))?$/",
+    "stack": [
+      "anonymous",
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "HEAD",
+      "GET"
+    ],
+    "paramNames": [],
+    "path": "/api/setting",
+    "regexp": "/^\\/api\\/setting(?:\\/(?=$))?$/",
+    "stack": [
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "PUT"
+    ],
+    "paramNames": [],
+    "path": "/api/setting",
+    "regexp": "/^\\/api\\/setting(?:\\/(?=$))?$/",
+    "stack": [
+      "anonymous",
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "POST"
+    ],
+    "paramNames": [],
+    "path": "/api/blogtype",
+    "regexp": "/^\\/api\\/blogtype(?:\\/(?=$))?$/",
+    "stack": [
+      "anonymous",
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "PUT"
+    ],
+    "paramNames": [
+      {
+        "name": "id",
+        "prefix": "/",
+        "delimiter": "/",
+        "optional": false,
+        "repeat": false,
+        "partial": false,
+        "asterisk": false,
+        "pattern": "[^\\/]+?"
+      }
+    ],
+    "path": "/api/blogtype/:id",
+    "regexp": "/^\\/api\\/blogtype\\/((?:[^\\/]+?))(?:\\/(?=$))?$/",
+    "stack": [
+      "anonymous",
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "DELETE"
+    ],
+    "paramNames": [
+      {
+        "name": "id",
+        "prefix": "/",
+        "delimiter": "/",
+        "optional": false,
+        "repeat": false,
+        "partial": false,
+        "asterisk": false,
+        "pattern": "[^\\/]+?"
+      }
+    ],
+    "path": "/api/blogtype/:id",
+    "regexp": "/^\\/api\\/blogtype\\/((?:[^\\/]+?))(?:\\/(?=$))?$/",
+    "stack": [
+      "anonymous",
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "HEAD",
+      "GET"
+    ],
+    "paramNames": [],
+    "path": "/api/blogtype",
+    "regexp": "/^\\/api\\/blogtype(?:\\/(?=$))?$/",
+    "stack": [
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "HEAD",
+      "GET"
+    ],
+    "paramNames": [
+      {
+        "name": "id",
+        "prefix": "/",
+        "delimiter": "/",
+        "optional": false,
+        "repeat": false,
+        "partial": false,
+        "asterisk": false,
+        "pattern": "[^\\/]+?"
+      }
+    ],
+    "path": "/api/blogtype/:id",
+    "regexp": "/^\\/api\\/blogtype\\/((?:[^\\/]+?))(?:\\/(?=$))?$/",
+    "stack": [
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "POST"
+    ],
+    "paramNames": [],
+    "path": "/api/blog",
+    "regexp": "/^\\/api\\/blog(?:\\/(?=$))?$/",
+    "stack": [
+      "anonymous",
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "PUT"
+    ],
+    "paramNames": [
+      {
+        "name": "id",
+        "prefix": "/",
+        "delimiter": "/",
+        "optional": false,
+        "repeat": false,
+        "partial": false,
+        "asterisk": false,
+        "pattern": "[^\\/]+?"
+      }
+    ],
+    "path": "/api/blog/:id",
+    "regexp": "/^\\/api\\/blog\\/((?:[^\\/]+?))(?:\\/(?=$))?$/",
+    "stack": [
+      "anonymous",
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "DELETE"
+    ],
+    "paramNames": [
+      {
+        "name": "id",
+        "prefix": "/",
+        "delimiter": "/",
+        "optional": false,
+        "repeat": false,
+        "partial": false,
+        "asterisk": false,
+        "pattern": "[^\\/]+?"
+      }
+    ],
+    "path": "/api/blog/:id",
+    "regexp": "/^\\/api\\/blog\\/((?:[^\\/]+?))(?:\\/(?=$))?$/",
+    "stack": [
+      "anonymous",
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "HEAD",
+      "GET"
+    ],
+    "paramNames": [],
+    "path": "/api/blog",
+    "regexp": "/^\\/api\\/blog(?:\\/(?=$))?$/",
+    "stack": [
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "HEAD",
+      "GET"
+    ],
+    "paramNames": [
+      {
+        "name": "id",
+        "prefix": "/",
+        "delimiter": "/",
+        "optional": false,
+        "repeat": false,
+        "partial": false,
+        "asterisk": false,
+        "pattern": "[^\\/]+?"
+      }
+    ],
+    "path": "/api/blog/:id",
+    "regexp": "/^\\/api\\/blog\\/((?:[^\\/]+?))(?:\\/(?=$))?$/",
+    "stack": [
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "HEAD",
+      "GET"
+    ],
+    "paramNames": [],
+    "path": "/res/captcha",
+    "regexp": "/^\\/res\\/captcha(?:\\/(?=$))?$/",
+    "stack": [
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "POST"
+    ],
+    "paramNames": [],
+    "path": "/api/upload",
+    "regexp": "/^\\/api\\/upload(?:\\/(?=$))?$/",
+    "stack": [
+      "anonymous",
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "POST"
+    ],
+    "paramNames": [],
+    "path": "/api/uploadURL",
+    "regexp": "/^\\/api\\/uploadURL(?:\\/(?=$))?$/",
+    "stack": [
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "HEAD",
+      "GET"
+    ],
+    "paramNames": [],
+    "path": "/api/upload",
+    "regexp": "/^\\/api\\/upload(?:\\/(?=$))?$/",
+    "stack": [
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "DELETE"
+    ],
+    "paramNames": [
+      {
+        "name": "id",
+        "prefix": "/",
+        "delimiter": "/",
+        "optional": false,
+        "repeat": false,
+        "partial": false,
+        "asterisk": false,
+        "pattern": "[^\\/]+?"
+      }
+    ],
+    "path": "/api/upload/:id",
+    "regexp": "/^\\/api\\/upload\\/((?:[^\\/]+?))(?:\\/(?=$))?$/",
+    "stack": [
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "POST"
+    ],
+    "paramNames": [],
+    "path": "/api/comment",
+    "regexp": "/^\\/api\\/comment(?:\\/(?=$))?$/",
+    "stack": [
+      "anonymous",
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "DELETE"
+    ],
+    "paramNames": [
+      {
+        "name": "id",
+        "prefix": "/",
+        "delimiter": "/",
+        "optional": false,
+        "repeat": false,
+        "partial": false,
+        "asterisk": false,
+        "pattern": "[^\\/]+?"
+      }
+    ],
+    "path": "/api/comment/:id",
+    "regexp": "/^\\/api\\/comment\\/((?:[^\\/]+?))(?:\\/(?=$))?$/",
+    "stack": [
+      "anonymous",
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "HEAD",
+      "GET"
+    ],
+    "paramNames": [],
+    "path": "/api/comment",
+    "regexp": "/^\\/api\\/comment(?:\\/(?=$))?$/",
+    "stack": [
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "POST"
+    ],
+    "paramNames": [],
+    "path": "/api/message",
+    "regexp": "/^\\/api\\/message(?:\\/(?=$))?$/",
+    "stack": [
+      "anonymous",
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "DELETE"
+    ],
+    "paramNames": [
+      {
+        "name": "id",
+        "prefix": "/",
+        "delimiter": "/",
+        "optional": false,
+        "repeat": false,
+        "partial": false,
+        "asterisk": false,
+        "pattern": "[^\\/]+?"
+      }
+    ],
+    "path": "/api/message/:id",
+    "regexp": "/^\\/api\\/message\\/((?:[^\\/]+?))(?:\\/(?=$))?$/",
+    "stack": [
+      "anonymous",
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "HEAD",
+      "GET"
+    ],
+    "paramNames": [],
+    "path": "/api/message",
+    "regexp": "/^\\/api\\/message(?:\\/(?=$))?$/",
+    "stack": [
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "POST"
+    ],
+    "paramNames": [],
+    "path": "/api/about",
+    "regexp": "/^\\/api\\/about(?:\\/(?=$))?$/",
+    "stack": [
+      "anonymous",
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "HEAD",
+      "GET"
+    ],
+    "paramNames": [],
+    "path": "/api/about",
+    "regexp": "/^\\/api\\/about(?:\\/(?=$))?$/",
+    "stack": [
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "POST"
+    ],
+    "paramNames": [],
+    "path": "/api/project",
+    "regexp": "/^\\/api\\/project(?:\\/(?=$))?$/",
+    "stack": [
+      "anonymous",
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "PUT"
+    ],
+    "paramNames": [
+      {
+        "name": "id",
+        "prefix": "/",
+        "delimiter": "/",
+        "optional": false,
+        "repeat": false,
+        "partial": false,
+        "asterisk": false,
+        "pattern": "[^\\/]+?"
+      }
+    ],
+    "path": "/api/project/:id",
+    "regexp": "/^\\/api\\/project\\/((?:[^\\/]+?))(?:\\/(?=$))?$/",
+    "stack": [
+      "anonymous",
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "DELETE"
+    ],
+    "paramNames": [
+      {
+        "name": "id",
+        "prefix": "/",
+        "delimiter": "/",
+        "optional": false,
+        "repeat": false,
+        "partial": false,
+        "asterisk": false,
+        "pattern": "[^\\/]+?"
+      }
+    ],
+    "path": "/api/project/:id",
+    "regexp": "/^\\/api\\/project\\/((?:[^\\/]+?))(?:\\/(?=$))?$/",
+    "stack": [
+      "anonymous",
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "HEAD",
+      "GET"
+    ],
+    "paramNames": [],
+    "path": "/api/project",
+    "regexp": "/^\\/api\\/project(?:\\/(?=$))?$/",
+    "stack": [
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "POST"
+    ],
+    "paramNames": [],
+    "path": "/api/banner",
+    "regexp": "/^\\/api\\/banner(?:\\/(?=$))?$/",
+    "stack": [
+      "anonymous",
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "HEAD",
+      "GET"
+    ],
+    "paramNames": [],
+    "path": "/api/banner",
+    "regexp": "/^\\/api\\/banner(?:\\/(?=$))?$/",
+    "stack": [
+      "wrappedController"
+    ]
+  }
+]

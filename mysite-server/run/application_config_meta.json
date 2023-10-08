@@ -1,0 +1,317 @@
+{
+  "keys": "D:\\桌面\\blog-project\\mysite-server\\config\\config.default.js",
+  "admin": {
+    "loginId": "D:\\桌面\\blog-project\\mysite-server\\config\\config.default.js",
+    "loginPwd": "D:\\桌面\\blog-project\\mysite-server\\config\\config.default.js",
+    "name": "D:\\桌面\\blog-project\\mysite-server\\config\\config.default.js"
+  },
+  "cluster": {
+    "listen": {
+      "port": "D:\\桌面\\blog-project\\mysite-server\\config\\config.default.js",
+      "path": "D:\\桌面\\blog-project\\mysite-server\\node_modules\\egg\\config\\config.default.js",
+      "hostname": "D:\\桌面\\blog-project\\mysite-server\\node_modules\\egg\\config\\config.default.js"
+    }
+  },
+  "middleware": "D:\\桌面\\blog-project\\mysite-server\\config\\config.default.js",
+  "responseFomatter": {
+    "ignore": "D:\\桌面\\blog-project\\mysite-server\\config\\config.default.js"
+  },
+  "mongoose": {
+    "url": "D:\\桌面\\blog-project\\mysite-server\\config\\config.default.js",
+    "options": {
+      "useUnifiedTopology": "D:\\桌面\\blog-project\\mysite-server\\config\\config.default.js"
+    },
+    "plugins": "D:\\桌面\\blog-project\\mysite-server\\node_modules\\egg-mongoose\\config\\config.default.js",
+    "loadModel": "D:\\桌面\\blog-project\\mysite-server\\node_modules\\egg-mongoose\\config\\config.default.js",
+    "app": "D:\\桌面\\blog-project\\mysite-server\\node_modules\\egg-mongoose\\config\\config.default.js",
+    "agent": "D:\\桌面\\blog-project\\mysite-server\\node_modules\\egg-mongoose\\config\\config.default.js"
+  },
+  "onerror": {
+    "all": "D:\\桌面\\blog-project\\mysite-server\\config\\config.default.js",
+    "errorPageUrl": "D:\\桌面\\blog-project\\mysite-server\\node_modules\\egg-onerror\\config\\config.default.js",
+    "appErrorFilter": "D:\\桌面\\blog-project\\mysite-server\\node_modules\\egg-onerror\\config\\config.default.js",
+    "templatePath": "D:\\桌面\\blog-project\\mysite-server\\node_modules\\egg-onerror\\config\\config.default.js"
+  },
+  "security": {
+    "csrf": "D:\\桌面\\blog-project\\mysite-server\\config\\config.default.js",
+    "domainWhiteList": "D:\\桌面\\blog-project\\mysite-server\\node_modules\\egg-security\\config\\config.default.js",
+    "protocolWhiteList": "D:\\桌面\\blog-project\\mysite-server\\node_modules\\egg-security\\config\\config.default.js",
+    "defaultMiddleware": "D:\\桌面\\blog-project\\mysite-server\\node_modules\\egg-security\\config\\config.default.js",
+    "xframe": {
+      "enable": "D:\\桌面\\blog-project\\mysite-server\\node_modules\\egg-security\\config\\config.default.js",
+      "value": "D:\\桌面\\blog-project\\mysite-server\\node_modules\\egg-security\\config\\config.default.js"
+    },
+    "hsts": {
+      "enable": "D:\\桌面\\blog-project\\mysite-server\\node_modules\\egg-security\\config\\config.local.js",
+      "maxAge": "D:\\桌面\\blog-project\\mysite-server\\node_modules\\egg-security\\config\\config.default.js",
+      "includeSubdomains": "D:\\桌面\\blog-project\\mysite-server\\node_modules\\egg-security\\config\\config.default.js"
+    },
+    "dta": {
+      "enable": "D:\\桌面\\blog-project\\mysite-server\\node_modules\\egg-security\\config\\config.default.js"
+    },
+    "methodnoallow": {
+      "enable": "D:\\桌面\\blog-project\\mysite-server\\node_modules\\egg-security\\config\\config.default.js"
+    },
+    "noopen": {
+      "enable": "D:\\桌面\\blog-project\\mysite-server\\node_modules\\egg-security\\config\\config.default.js"
+    },
+    "nosniff": {
+      "enable": "D:\\桌面\\blog-project\\mysite-server\\node_modules\\egg-security\\config\\config.default.js"
+    },
+    "referrerPolicy": {
+      "enable": "D:\\桌面\\blog-project\\mysite-server\\node_modules\\egg-security\\config\\config.default.js",
+      "value": "D:\\桌面\\blog-project\\mysite-server\\node_modules\\egg-security\\config\\config.default.js"
+    },
+    "xssProtection": {
+      "enable": "D:\\桌面\\blog-project\\mysite-server\\node_modules\\egg-security\\config\\config.default.js",
+      "value": "D:\\桌面\\blog-project\\mysite-server\\node_modules\\egg-security\\config\\config.default.js"
+    },
+    "csp": {
+      "enable": "D:\\桌面\\blog-project\\mysite-server\\node_modules\\egg-security\\config\\config.default.js",
+      "policy": "D:\\桌面\\blog-project\\mysite-server\\node_modules\\egg-security\\config\\config.default.js"
+    },
+    "ssrf": {
+      "ipBlackList": "D:\\桌面\\blog-project\\mysite-server\\node_modules\\egg-security\\config\\config.default.js",
+      "ipExceptionList": "D:\\桌面\\blog-project\\mysite-server\\node_modules\\egg-security\\config\\config.default.js",
+      "checkAddress": "D:\\桌面\\blog-project\\mysite-server\\node_modules\\egg-security\\config\\config.default.js"
+    }
+  },
+  "validate": {
+    "enable": "D:\\桌面\\blog-project\\mysite-server\\config\\config.default.js",
+    "package": "D:\\桌面\\blog-project\\mysite-server\\config\\config.default.js"
+  },
+  "static": {
+    "prefix": "D:\\桌面\\blog-project\\mysite-server\\config\\config.default.js",
+    "maxAge": "D:\\桌面\\blog-project\\mysite-server\\config\\config.default.js",
+    "dir": "D:\\桌面\\blog-project\\mysite-server\\node_modules\\egg-static\\config\\config.default.js",
+    "dynamic": "D:\\桌面\\blog-project\\mysite-server\\node_modules\\egg-static\\config\\config.default.js",
+    "preload": "D:\\桌面\\blog-project\\mysite-server\\node_modules\\egg-static\\config\\config.default.js",
+    "buffer": "D:\\桌面\\blog-project\\mysite-server\\node_modules\\egg-static\\config\\config.default.js",
+    "maxFiles": "D:\\桌面\\blog-project\\mysite-server\\node_modules\\egg-static\\config\\config.default.js"
+  },
+  "multipart": {
+    "fileSize": "D:\\桌面\\blog-project\\mysite-server\\config\\config.default.js",
+    "whitelist": "D:\\桌面\\blog-project\\mysite-server\\config\\config.default.js",
+    "mode": "D:\\桌面\\blog-project\\mysite-server\\config\\config.default.js",
+    "tmpdir": "D:\\桌面\\blog-project\\mysite-server\\config\\config.default.js",
+    "autoFields": "D:\\桌面\\blog-project\\mysite-server\\node_modules\\egg-multipart\\config\\config.default.js",
+    "defaultCharset": "D:\\桌面\\blog-project\\mysite-server\\node_modules\\egg-multipart\\config\\config.default.js",
+    "fieldNameSize": "D:\\桌面\\blog-project\\mysite-server\\node_modules\\egg-multipart\\config\\config.default.js",
+    "fieldSize": "D:\\桌面\\blog-project\\mysite-server\\node_modules\\egg-multipart\\config\\config.default.js",
+    "fields": "D:\\桌面\\blog-project\\mysite-server\\node_modules\\egg-multipart\\config\\config.default.js",
+    "files": "D:\\桌面\\blog-project\\mysite-server\\node_modules\\egg-multipart\\config\\config.default.js",
+    "fileExtensions": "D:\\桌面\\blog-project\\mysite-server\\node_modules\\egg-multipart\\config\\config.default.js",
+    "allowArrayField": "D:\\桌面\\blog-project\\mysite-server\\node_modules\\egg-multipart\\config\\config.default.js",
+    "cleanSchedule": {
+      "cron": "D:\\桌面\\blog-project\\mysite-server\\node_modules\\egg-multipart\\config\\config.default.js",
+      "disable": "D:\\桌面\\blog-project\\mysite-server\\node_modules\\egg-multipart\\config\\config.default.js"
+    }
+  },
+  "messageLimit": {
+    "duration": "D:\\桌面\\blog-project\\mysite-server\\config\\config.default.js",
+    "times": "D:\\桌面\\blog-project\\mysite-server\\config\\config.default.js",
+    "message": "D:\\桌面\\blog-project\\mysite-server\\config\\config.default.js",
+    "limit": "D:\\桌面\\blog-project\\mysite-server\\config\\config.default.js"
+  },
+  "session": {
+    "maxAge": "D:\\桌面\\blog-project\\mysite-server\\node_modules\\egg-session\\config\\config.default.js",
+    "key": "D:\\桌面\\blog-project\\mysite-server\\node_modules\\egg-session\\config\\config.default.js",
+    "httpOnly": "D:\\桌面\\blog-project\\mysite-server\\node_modules\\egg-session\\config\\config.default.js",
+    "encrypt": "D:\\桌面\\blog-project\\mysite-server\\node_modules\\egg-session\\config\\config.default.js",
+    "logValue": "D:\\桌面\\blog-project\\mysite-server\\node_modules\\egg-session\\config\\config.default.js"
+  },
+  "helper": {
+    "shtml": "D:\\桌面\\blog-project\\mysite-server\\node_modules\\egg-security\\config\\config.default.js"
+  },
+  "jsonp": {
+    "limit": "D:\\桌面\\blog-project\\mysite-server\\node_modules\\egg-jsonp\\config\\config.default.js",
+    "callback": "D:\\桌面\\blog-project\\mysite-server\\node_modules\\egg-jsonp\\config\\config.default.js",
+    "csrf": "D:\\桌面\\blog-project\\mysite-server\\node_modules\\egg-jsonp\\config\\config.default.js"
+  },
+  "i18n": {
+    "defaultLocale": "D:\\桌面\\blog-project\\mysite-server\\node_modules\\egg-i18n\\config\\config.default.js",
+    "dirs": "D:\\桌面\\blog-project\\mysite-server\\node_modules\\egg-i18n\\config\\config.default.js",
+    "queryField": "D:\\桌面\\blog-project\\mysite-server\\node_modules\\egg-i18n\\config\\config.default.js",
+    "cookieField": "D:\\桌面\\blog-project\\mysite-server\\node_modules\\egg-i18n\\config\\config.default.js",
+    "cookieDomain": "D:\\桌面\\blog-project\\mysite-server\\node_modules\\egg-i18n\\config\\config.default.js",
+    "cookieMaxAge": "D:\\桌面\\blog-project\\mysite-server\\node_modules\\egg-i18n\\config\\config.default.js"
+  },
+  "watcher": {
+    "type": "D:\\桌面\\blog-project\\mysite-server\\node_modules\\egg-watcher\\config\\config.local.js",
+    "eventSources": {
+      "default": "D:\\桌面\\blog-project\\mysite-server\\node_modules\\egg-watcher\\config\\config.default.js",
+      "development": "D:\\桌面\\blog-project\\mysite-server\\node_modules\\egg-watcher\\config\\config.default.js"
+    }
+  },
+  "customLogger": {
+    "scheduleLogger": {
+      "consoleLevel": "D:\\桌面\\blog-project\\mysite-server\\node_modules\\egg-schedule\\config\\config.default.js",
+      "file": "D:\\桌面\\blog-project\\mysite-server\\node_modules\\egg-schedule\\config\\config.default.js"
+    }
+  },
+  "schedule": {
+    "directory": "D:\\桌面\\blog-project\\mysite-server\\node_modules\\egg-schedule\\config\\config.default.js"
+  },
+  "development": {
+    "watchDirs": "D:\\桌面\\blog-project\\mysite-server\\node_modules\\egg-development\\config\\config.default.js",
+    "ignoreDirs": "D:\\桌面\\blog-project\\mysite-server\\node_modules\\egg-development\\config\\config.default.js",
+    "fastReady": "D:\\桌面\\blog-project\\mysite-server\\node_modules\\egg-development\\config\\config.default.js",
+    "reloadOnDebug": "D:\\桌面\\blog-project\\mysite-server\\node_modules\\egg-development\\config\\config.default.js",
+    "overrideDefault": "D:\\桌面\\blog-project\\mysite-server\\node_modules\\egg-development\\config\\config.default.js",
+    "overrideIgnore": "D:\\桌面\\blog-project\\mysite-server\\node_modules\\egg-development\\config\\config.default.js"
+  },
+  "logrotator": {
+    "filesRotateByHour": "D:\\桌面\\blog-project\\mysite-server\\node_modules\\egg-logrotator\\config\\config.default.js",
+    "hourDelimiter": "D:\\桌面\\blog-project\\mysite-server\\node_modules\\egg-logrotator\\config\\config.default.js",
+    "filesRotateBySize": "D:\\桌面\\blog-project\\mysite-server\\node_modules\\egg-logrotator\\config\\config.default.js",
+    "maxFileSize": "D:\\桌面\\blog-project\\mysite-server\\node_modules\\egg-logrotator\\config\\config.default.js",
+    "maxFiles": "D:\\桌面\\blog-project\\mysite-server\\node_modules\\egg-logrotator\\config\\config.default.js",
+    "rotateDuration": "D:\\桌面\\blog-project\\mysite-server\\node_modules\\egg-logrotator\\config\\config.default.js",
+    "maxDays": "D:\\桌面\\blog-project\\mysite-server\\node_modules\\egg-logrotator\\config\\config.default.js"
+  },
+  "view": {
+    "root": "D:\\桌面\\blog-project\\mysite-server\\node_modules\\egg-view\\config\\config.default.js",
+    "cache": "D:\\桌面\\blog-project\\mysite-server\\node_modules\\egg-view\\config\\config.local.js",
+    "defaultExtension": "D:\\桌面\\blog-project\\mysite-server\\node_modules\\egg-view\\config\\config.default.js",
+    "defaultViewEngine": "D:\\桌面\\blog-project\\mysite-server\\node_modules\\egg-view\\config\\config.default.js",
+    "mapping": "D:\\桌面\\blog-project\\mysite-server\\node_modules\\egg-view\\config\\config.default.js"
+  },
+  "env": "D:\\桌面\\blog-project\\mysite-server\\node_modules\\egg\\config\\config.default.js",
+  "name": "D:\\桌面\\blog-project\\mysite-server\\node_modules\\egg\\config\\config.default.js",
+  "cookies": "D:\\桌面\\blog-project\\mysite-server\\node_modules\\egg\\config\\config.default.js",
+  "proxy": "D:\\桌面\\blog-project\\mysite-server\\node_modules\\egg\\config\\config.default.js",
+  "maxIpsCount": "D:\\桌面\\blog-project\\mysite-server\\node_modules\\egg\\config\\config.default.js",
+  "maxProxyCount": "D:\\桌面\\blog-project\\mysite-server\\node_modules\\egg\\config\\config.default.js",
+  "protocolHeaders": "D:\\桌面\\blog-project\\mysite-server\\node_modules\\egg\\config\\config.default.js",
+  "ipHeaders": "D:\\桌面\\blog-project\\mysite-server\\node_modules\\egg\\config\\config.default.js",
+  "hostHeaders": "D:\\桌面\\blog-project\\mysite-server\\node_modules\\egg\\config\\config.default.js",
+  "pkg": {
+    "name": "D:\\桌面\\blog-project\\mysite-server\\node_modules\\egg\\config\\config.default.js",
+    "version": "D:\\桌面\\blog-project\\mysite-server\\node_modules\\egg\\config\\config.default.js",
+    "description": "D:\\桌面\\blog-project\\mysite-server\\node_modules\\egg\\config\\config.default.js",
+    "private": "D:\\桌面\\blog-project\\mysite-server\\node_modules\\egg\\config\\config.default.js",
+    "egg": {
+      "declarations": "D:\\桌面\\blog-project\\mysite-server\\node_modules\\egg\\config\\config.default.js"
+    },
+    "dependencies": {
+      "egg": "D:\\桌面\\blog-project\\mysite-server\\node_modules\\egg\\config\\config.default.js",
+      "egg-mongoose": "D:\\桌面\\blog-project\\mysite-server\\node_modules\\egg\\config\\config.default.js",
+      "egg-scripts": "D:\\桌面\\blog-project\\mysite-server\\node_modules\\egg\\config\\config.default.js",
+      "egg-validate": "D:\\桌面\\blog-project\\mysite-server\\node_modules\\egg\\config\\config.default.js",
+      "jsonwebtoken": "D:\\桌面\\blog-project\\mysite-server\\node_modules\\egg\\config\\config.default.js",
+      "markdown-toc": "D:\\桌面\\blog-project\\mysite-server\\node_modules\\egg\\config\\config.default.js",
+      "md5": "D:\\桌面\\blog-project\\mysite-server\\node_modules\\egg\\config\\config.default.js",
+      "svg-captcha": "D:\\桌面\\blog-project\\mysite-server\\node_modules\\egg\\config\\config.default.js"
+    },
+    "devDependencies": {
+      "autod": "D:\\桌面\\blog-project\\mysite-server\\node_modules\\egg\\config\\config.default.js",
+      "autod-egg": "D:\\桌面\\blog-project\\mysite-server\\node_modules\\egg\\config\\config.default.js",
+      "egg-bin": "D:\\桌面\\blog-project\\mysite-server\\node_modules\\egg\\config\\config.default.js",
+      "egg-ci": "D:\\桌面\\blog-project\\mysite-server\\node_modules\\egg\\config\\config.default.js",
+      "egg-mock": "D:\\桌面\\blog-project\\mysite-server\\node_modules\\egg\\config\\config.default.js"
+    },
+    "engines": {
+      "node": "D:\\桌面\\blog-project\\mysite-server\\node_modules\\egg\\config\\config.default.js"
+    },
+    "scripts": {
+      "start": "D:\\桌面\\blog-project\\mysite-server\\node_modules\\egg\\config\\config.default.js",
+      "stop": "D:\\桌面\\blog-project\\mysite-server\\node_modules\\egg\\config\\config.default.js",
+      "dev": "D:\\桌面\\blog-project\\mysite-server\\node_modules\\egg\\config\\config.default.js",
+      "debug": "D:\\桌面\\blog-project\\mysite-server\\node_modules\\egg\\config\\config.default.js"
+    },
+    "ci": {
+      "version": "D:\\桌面\\blog-project\\mysite-server\\node_modules\\egg\\config\\config.default.js"
+    },
+    "repository": {
+      "type": "D:\\桌面\\blog-project\\mysite-server\\node_modules\\egg\\config\\config.default.js",
+      "url": "D:\\桌面\\blog-project\\mysite-server\\node_modules\\egg\\config\\config.default.js"
+    },
+    "author": "D:\\桌面\\blog-project\\mysite-server\\node_modules\\egg\\config\\config.default.js",
+    "license": "D:\\桌面\\blog-project\\mysite-server\\node_modules\\egg\\config\\config.default.js"
+  },
+  "baseDir": "D:\\桌面\\blog-project\\mysite-server\\node_modules\\egg\\config\\config.default.js",
+  "HOME": "D:\\桌面\\blog-project\\mysite-server\\node_modules\\egg\\config\\config.default.js",
+  "rundir": "D:\\桌面\\blog-project\\mysite-server\\node_modules\\egg\\config\\config.default.js",
+  "dump": {
+    "ignore": "D:\\桌面\\blog-project\\mysite-server\\node_modules\\egg\\config\\config.default.js"
+  },
+  "confusedConfigurations": {
+    "bodyparser": "D:\\桌面\\blog-project\\mysite-server\\node_modules\\egg\\config\\config.default.js",
+    "notFound": "D:\\桌面\\blog-project\\mysite-server\\node_modules\\egg\\config\\config.default.js",
+    "sitefile": "D:\\桌面\\blog-project\\mysite-server\\node_modules\\egg\\config\\config.default.js",
+    "middlewares": "D:\\桌面\\blog-project\\mysite-server\\node_modules\\egg\\config\\config.default.js",
+    "httpClient": "D:\\桌面\\blog-project\\mysite-server\\node_modules\\egg\\config\\config.default.js"
+  },
+  "notfound": {
+    "pageUrl": "D:\\桌面\\blog-project\\mysite-server\\node_modules\\egg\\config\\config.default.js"
+  },
+  "siteFile": {
+    "/favicon.ico": "D:\\桌面\\blog-project\\mysite-server\\node_modules\\egg\\config\\config.default.js",
+    "cacheControl": "D:\\桌面\\blog-project\\mysite-server\\node_modules\\egg\\config\\config.default.js"
+  },
+  "bodyParser": {
+    "enable": "D:\\桌面\\blog-project\\mysite-server\\node_modules\\egg\\config\\config.default.js",
+    "encoding": "D:\\桌面\\blog-project\\mysite-server\\node_modules\\egg\\config\\config.default.js",
+    "formLimit": "D:\\桌面\\blog-project\\mysite-server\\node_modules\\egg\\config\\config.default.js",
+    "jsonLimit": "D:\\桌面\\blog-project\\mysite-server\\node_modules\\egg\\config\\config.default.js",
+    "textLimit": "D:\\桌面\\blog-project\\mysite-server\\node_modules\\egg\\config\\config.default.js",
+    "strict": "D:\\桌面\\blog-project\\mysite-server\\node_modules\\egg\\config\\config.default.js",
+    "queryString": {
+      "arrayLimit": "D:\\桌面\\blog-project\\mysite-server\\node_modules\\egg\\config\\config.default.js",
+      "depth": "D:\\桌面\\blog-project\\mysite-server\\node_modules\\egg\\config\\config.default.js",
+      "parameterLimit": "D:\\桌面\\blog-project\\mysite-server\\node_modules\\egg\\config\\config.default.js"
+    },
+    "onerror": "D:\\桌面\\blog-project\\mysite-server\\node_modules\\egg\\config\\config.default.js"
+  },
+  "logger": {
+    "dir": "D:\\桌面\\blog-project\\mysite-server\\node_modules\\egg\\config\\config.default.js",
+    "encoding": "D:\\桌面\\blog-project\\mysite-server\\node_modules\\egg\\config\\config.default.js",
+    "env": "D:\\桌面\\blog-project\\mysite-server\\node_modules\\egg\\config\\config.default.js",
+    "level": "D:\\桌面\\blog-project\\mysite-server\\node_modules\\egg\\config\\config.default.js",
+    "consoleLevel": "D:\\桌面\\blog-project\\mysite-server\\node_modules\\egg\\config\\config.default.js",
+    "disableConsoleAfterReady": "D:\\桌面\\blog-project\\mysite-server\\node_modules\\egg\\config\\config.default.js",
+    "outputJSON": "D:\\桌面\\blog-project\\mysite-server\\node_modules\\egg\\config\\config.default.js",
+    "buffer": "D:\\桌面\\blog-project\\mysite-server\\node_modules\\egg\\config\\config.default.js",
+    "appLogName": "D:\\桌面\\blog-project\\mysite-server\\node_modules\\egg\\config\\config.default.js",
+    "coreLogName": "D:\\桌面\\blog-project\\mysite-server\\node_modules\\egg\\config\\config.default.js",
+    "agentLogName": "D:\\桌面\\blog-project\\mysite-server\\node_modules\\egg\\config\\config.default.js",
+    "errorLogName": "D:\\桌面\\blog-project\\mysite-server\\node_modules\\egg\\config\\config.default.js",
+    "coreLogger": {
+      "consoleLevel": "D:\\桌面\\blog-project\\mysite-server\\node_modules\\egg\\config\\config.local.js"
+    },
+    "allowDebugAtProd": "D:\\桌面\\blog-project\\mysite-server\\node_modules\\egg\\config\\config.default.js",
+    "enablePerformanceTimer": "D:\\桌面\\blog-project\\mysite-server\\node_modules\\egg\\config\\config.default.js"
+  },
+  "httpclient": {
+    "enableDNSCache": "D:\\桌面\\blog-project\\mysite-server\\node_modules\\egg\\config\\config.default.js",
+    "dnsCacheLookupInterval": "D:\\桌面\\blog-project\\mysite-server\\node_modules\\egg\\config\\config.default.js",
+    "dnsCacheMaxLength": "D:\\桌面\\blog-project\\mysite-server\\node_modules\\egg\\config\\config.default.js",
+    "request": {
+      "timeout": "D:\\桌面\\blog-project\\mysite-server\\node_modules\\egg\\config\\config.default.js"
+    },
+    "httpAgent": {
+      "keepAlive": "D:\\桌面\\blog-project\\mysite-server\\node_modules\\egg\\config\\config.default.js",
+      "freeSocketTimeout": "D:\\桌面\\blog-project\\mysite-server\\node_modules\\egg\\config\\config.default.js",
+      "maxSockets": "D:\\桌面\\blog-project\\mysite-server\\node_modules\\egg\\config\\config.default.js",
+      "maxFreeSockets": "D:\\桌面\\blog-project\\mysite-server\\node_modules\\egg\\config\\config.default.js"
+    },
+    "httpsAgent": {
+      "keepAlive": "D:\\桌面\\blog-project\\mysite-server\\node_modules\\egg\\config\\config.default.js",
+      "freeSocketTimeout": "D:\\桌面\\blog-project\\mysite-server\\node_modules\\egg\\config\\config.default.js",
+      "maxSockets": "D:\\桌面\\blog-project\\mysite-server\\node_modules\\egg\\config\\config.default.js",
+      "maxFreeSockets": "D:\\桌面\\blog-project\\mysite-server\\node_modules\\egg\\config\\config.default.js"
+    }
+  },
+  "meta": {
+    "enable": "D:\\桌面\\blog-project\\mysite-server\\node_modules\\egg\\config\\config.default.js",
+    "logging": "D:\\桌面\\blog-project\\mysite-server\\node_modules\\egg\\config\\config.default.js"
+  },
+  "coreMiddleware": "D:\\桌面\\blog-project\\mysite-server\\node_modules\\egg\\config\\config.default.js",
+  "workerStartTimeout": "D:\\桌面\\blog-project\\mysite-server\\node_modules\\egg\\config\\config.default.js",
+  "serverTimeout": "D:\\桌面\\blog-project\\mysite-server\\node_modules\\egg\\config\\config.default.js",
+  "clusterClient": {
+    "maxWaitTime": "D:\\桌面\\blog-project\\mysite-server\\node_modules\\egg\\config\\config.default.js",
+    "responseTimeout": "D:\\桌面\\blog-project\\mysite-server\\node_modules\\egg\\config\\config.default.js"
+  },
+  "onClientError": "D:\\桌面\\blog-project\\mysite-server\\node_modules\\egg\\config\\config.default.js"
+}

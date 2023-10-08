@@ -1,0 +1,19 @@
+2023-07-25 15:55:37,451 INFO 6980 [egg:logger] init all loggers with options: {"dir":"D:\\桌面\\blog-project\\mysite-server\\logs\\mysite-server","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"mysite-server-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"application"}
+2023-07-25 15:55:37,482 INFO 6980 [egg-multipart] file mode enable
+2023-07-25 15:55:37,482 INFO 6980 [egg-multipart] will save temporary files to "D:\\桌面\\blog-project\\mysite-server\\app\\public\\upload_temp", cleanup job cron: "0 30 4 * * *"
+2023-07-25 15:55:37,486 INFO 6980 [egg-mongoose] connecting mongodb://127.0.0.1/mysite
+2023-07-25 15:55:37,742 INFO 6980 [egg-static] starting static serve /static/ -> D:\桌面\blog-project\mysite-server\app\public
+2023-07-25 15:55:37,744 WARN 6980 [egg-security] Please use `config.security.csrf = { enable: false }` instead of `config.security.csrf = false`
+2023-07-25 15:55:37,748 INFO 6980 [egg-security] use methodnoallow middleware
+2023-07-25 15:55:37,749 INFO 6980 [egg-security] use noopen middleware
+2023-07-25 15:55:37,750 INFO 6980 [egg-security] use nosniff middleware
+2023-07-25 15:55:37,751 INFO 6980 [egg-security] use xssProtection middleware
+2023-07-25 15:55:37,752 INFO 6980 [egg-security] use xframe middleware
+2023-07-25 15:55:37,753 INFO 6980 [egg-security] use dta middleware
+2023-07-25 15:55:37,753 INFO 6980 [egg-security] compose 6 middlewares into one security middleware
+2023-07-25 15:55:37,807 INFO 6980 [egg:core] dump config after load, 6ms
+2023-07-25 15:55:37,810 INFO 6980 [egg-mongoose] starting...
+2023-07-25 15:55:37,855 INFO 6980 [egg-watcher:application] watcher start success
+2023-07-25 15:55:37,860 INFO 6980 [egg-mongoose] mongodb://127.0.0.1/mysite connected successfully
+2023-07-25 15:55:37,861 INFO 6980 [egg-mongoose] instance[0] start successfully
+2023-07-25 15:55:37,883 INFO 6980 [egg:core] dump config after ready, 10ms

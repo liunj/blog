@@ -1,0 +1,130 @@
+2023-07-25 15:58:16,286 ERROR 6980 [-/127.0.0.1/-/15ms GET /api/admin/whoami] nodejs.TokenExpiredError: jwt expired
+    at D:\桌面\blog-project\mysite-server\node_modules\jsonwebtoken\verify.js:152:21
+    at getSecret (D:\桌面\blog-project\mysite-server\node_modules\jsonwebtoken\verify.js:90:14)
+    at Object.module.exports [as verify] (D:\桌面\blog-project\mysite-server\node_modules\jsonwebtoken\verify.js:94:10)
+    at D:\桌面\blog-project\mysite-server\app\middleware\auth.js:6:23
+    at dispatch (D:\桌面\blog-project\mysite-server\node_modules\koa-compose\index.js:44:32)
+    at next (D:\桌面\blog-project\mysite-server\node_modules\koa-compose\index.js:45:18)
+    at D:\桌面\blog-project\mysite-server\node_modules\@eggjs\router\lib\router.js:186:18
+    at dispatch (D:\桌面\blog-project\mysite-server\node_modules\koa-compose\index.js:44:32)
+    at D:\桌面\blog-project\mysite-server\node_modules\koa-compose\index.js:36:12
+    at dispatch (D:\桌面\blog-project\mysite-server\node_modules\@eggjs\router\lib\router.js:191:33)
+    at dispatch (D:\桌面\blog-project\mysite-server\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at D:\桌面\blog-project\mysite-server\app\middleware\responseFomatter.js:2:9
+    at fn (D:\桌面\blog-project\mysite-server\node_modules\egg-core\lib\loader\mixin\middleware.js:112:12)
+    at dispatch (D:\桌面\blog-project\mysite-server\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at D:\桌面\blog-project\mysite-server\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:56
+    at dispatch (D:\桌面\blog-project\mysite-server\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+name: "TokenExpiredError"
+message: "jwt expired"
+expiredAt: "2022-12-26T04:59:17.000Z"
+pid: 6980
+hostname: DESKTOP-5H0TEPS
+
+2023-07-25 15:58:16,293 ERROR 6980 [-/127.0.0.1/-/24ms GET /api/admin/whoami] nodejs.Error: 
+    at Function.throw (D:\桌面\blog-project\mysite-server\app\extend\application.js:8:11)
+    at D:\桌面\blog-project\mysite-server\app\middleware\auth.js:10:24
+    at dispatch (D:\桌面\blog-project\mysite-server\node_modules\koa-compose\index.js:44:32)
+    at next (D:\桌面\blog-project\mysite-server\node_modules\koa-compose\index.js:45:18)
+    at D:\桌面\blog-project\mysite-server\node_modules\@eggjs\router\lib\router.js:186:18
+    at dispatch (D:\桌面\blog-project\mysite-server\node_modules\koa-compose\index.js:44:32)
+    at D:\桌面\blog-project\mysite-server\node_modules\koa-compose\index.js:36:12
+    at dispatch (D:\桌面\blog-project\mysite-server\node_modules\@eggjs\router\lib\router.js:191:33)
+    at dispatch (D:\桌面\blog-project\mysite-server\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at D:\桌面\blog-project\mysite-server\app\middleware\responseFomatter.js:2:9
+    at fn (D:\桌面\blog-project\mysite-server\node_modules\egg-core\lib\loader\mixin\middleware.js:112:12)
+    at dispatch (D:\桌面\blog-project\mysite-server\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at D:\桌面\blog-project\mysite-server\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:56
+    at dispatch (D:\桌面\blog-project\mysite-server\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at multipart (D:\桌面\blog-project\mysite-server\node_modules\egg-multipart\app\middleware\multipart.js:10:38)
+    at dispatch (D:\桌面\blog-project\mysite-server\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+code: 401
+pid: 6980
+hostname: DESKTOP-5H0TEPS
+
+2023-07-25 15:58:16,300 ERROR 6980 [-/127.0.0.1/-/31ms GET /api/admin/whoami] nodejs.Error: 
+    at Function.throw (D:\桌面\blog-project\mysite-server\app\extend\application.js:8:11)
+    at D:\桌面\blog-project\mysite-server\app\middleware\auth.js:10:24
+    at dispatch (D:\桌面\blog-project\mysite-server\node_modules\koa-compose\index.js:44:32)
+    at next (D:\桌面\blog-project\mysite-server\node_modules\koa-compose\index.js:45:18)
+    at D:\桌面\blog-project\mysite-server\node_modules\@eggjs\router\lib\router.js:186:18
+    at dispatch (D:\桌面\blog-project\mysite-server\node_modules\koa-compose\index.js:44:32)
+    at D:\桌面\blog-project\mysite-server\node_modules\koa-compose\index.js:36:12
+    at dispatch (D:\桌面\blog-project\mysite-server\node_modules\@eggjs\router\lib\router.js:191:33)
+    at dispatch (D:\桌面\blog-project\mysite-server\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at D:\桌面\blog-project\mysite-server\app\middleware\responseFomatter.js:2:9
+    at fn (D:\桌面\blog-project\mysite-server\node_modules\egg-core\lib\loader\mixin\middleware.js:112:12)
+    at dispatch (D:\桌面\blog-project\mysite-server\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at D:\桌面\blog-project\mysite-server\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:56
+    at dispatch (D:\桌面\blog-project\mysite-server\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at multipart (D:\桌面\blog-project\mysite-server\node_modules\egg-multipart\app\middleware\multipart.js:10:38)
+    at dispatch (D:\桌面\blog-project\mysite-server\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+code: 401
+status: 500
+pid: 6980
+hostname: DESKTOP-5H0TEPS
+
+2023-07-25 15:58:55,950 ERROR 6980 [-/127.0.0.1/-/16ms POST /api/admin/login] nodejs.Error: 验证码错误
+    at Function.throw (D:\桌面\blog-project\mysite-server\app\extend\application.js:8:11)
+    at D:\桌面\blog-project\mysite-server\app\middleware\captcha.js:7:26
+    at dispatch (D:\桌面\blog-project\mysite-server\node_modules\koa-compose\index.js:44:32)
+    at next (D:\桌面\blog-project\mysite-server\node_modules\koa-compose\index.js:45:18)
+    at D:\桌面\blog-project\mysite-server\node_modules\@eggjs\router\lib\router.js:186:18
+    at dispatch (D:\桌面\blog-project\mysite-server\node_modules\koa-compose\index.js:44:32)
+    at D:\桌面\blog-project\mysite-server\node_modules\koa-compose\index.js:36:12
+    at dispatch (D:\桌面\blog-project\mysite-server\node_modules\@eggjs\router\lib\router.js:191:33)
+    at dispatch (D:\桌面\blog-project\mysite-server\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at D:\桌面\blog-project\mysite-server\app\middleware\responseFomatter.js:2:9
+    at fn (D:\桌面\blog-project\mysite-server\node_modules\egg-core\lib\loader\mixin\middleware.js:112:12)
+    at dispatch (D:\桌面\blog-project\mysite-server\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at D:\桌面\blog-project\mysite-server\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:56
+    at dispatch (D:\桌面\blog-project\mysite-server\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at multipart (D:\桌面\blog-project\mysite-server\node_modules\egg-multipart\app\middleware\multipart.js:10:38)
+    at dispatch (D:\桌面\blog-project\mysite-server\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+code: 406
+pid: 6980
+hostname: DESKTOP-5H0TEPS
+
+2023-07-25 15:58:55,953 ERROR 6980 [-/127.0.0.1/-/19ms POST /api/admin/login] nodejs.Error: 验证码错误
+    at Function.throw (D:\桌面\blog-project\mysite-server\app\extend\application.js:8:11)
+    at D:\桌面\blog-project\mysite-server\app\middleware\captcha.js:11:24
+    at dispatch (D:\桌面\blog-project\mysite-server\node_modules\koa-compose\index.js:44:32)
+    at next (D:\桌面\blog-project\mysite-server\node_modules\koa-compose\index.js:45:18)
+    at D:\桌面\blog-project\mysite-server\node_modules\@eggjs\router\lib\router.js:186:18
+    at dispatch (D:\桌面\blog-project\mysite-server\node_modules\koa-compose\index.js:44:32)
+    at D:\桌面\blog-project\mysite-server\node_modules\koa-compose\index.js:36:12
+    at dispatch (D:\桌面\blog-project\mysite-server\node_modules\@eggjs\router\lib\router.js:191:33)
+    at dispatch (D:\桌面\blog-project\mysite-server\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at D:\桌面\blog-project\mysite-server\app\middleware\responseFomatter.js:2:9
+    at fn (D:\桌面\blog-project\mysite-server\node_modules\egg-core\lib\loader\mixin\middleware.js:112:12)
+    at dispatch (D:\桌面\blog-project\mysite-server\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at D:\桌面\blog-project\mysite-server\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:56
+    at dispatch (D:\桌面\blog-project\mysite-server\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at multipart (D:\桌面\blog-project\mysite-server\node_modules\egg-multipart\app\middleware\multipart.js:10:38)
+    at dispatch (D:\桌面\blog-project\mysite-server\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+code: 406
+pid: 6980
+hostname: DESKTOP-5H0TEPS
+
+2023-07-25 15:58:55,956 ERROR 6980 [-/127.0.0.1/-/22ms POST /api/admin/login] nodejs.Error: 验证码错误
+    at Function.throw (D:\桌面\blog-project\mysite-server\app\extend\application.js:8:11)
+    at D:\桌面\blog-project\mysite-server\app\middleware\captcha.js:11:24
+    at dispatch (D:\桌面\blog-project\mysite-server\node_modules\koa-compose\index.js:44:32)
+    at next (D:\桌面\blog-project\mysite-server\node_modules\koa-compose\index.js:45:18)
+    at D:\桌面\blog-project\mysite-server\node_modules\@eggjs\router\lib\router.js:186:18
+    at dispatch (D:\桌面\blog-project\mysite-server\node_modules\koa-compose\index.js:44:32)
+    at D:\桌面\blog-project\mysite-server\node_modules\koa-compose\index.js:36:12
+    at dispatch (D:\桌面\blog-project\mysite-server\node_modules\@eggjs\router\lib\router.js:191:33)
+    at dispatch (D:\桌面\blog-project\mysite-server\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at D:\桌面\blog-project\mysite-server\app\middleware\responseFomatter.js:2:9
+    at fn (D:\桌面\blog-project\mysite-server\node_modules\egg-core\lib\loader\mixin\middleware.js:112:12)
+    at dispatch (D:\桌面\blog-project\mysite-server\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at D:\桌面\blog-project\mysite-server\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:56
+    at dispatch (D:\桌面\blog-project\mysite-server\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at multipart (D:\桌面\blog-project\mysite-server\node_modules\egg-multipart\app\middleware\multipart.js:10:38)
+    at dispatch (D:\桌面\blog-project\mysite-server\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+code: 406
+status: 500
+pid: 6980
+hostname: DESKTOP-5H0TEPS
+
